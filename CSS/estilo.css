@@ -1,0 +1,12 @@
+ h1{
+    color: indianred;
+ }
+ h1#page1{
+    color:rgb(180, 180, 180);
+ }
+ h1#page2{
+    color:rgb(75, 87, 82);
+ }
+ body ul i {
+   color:rgb(76, 135, 136);
+ }
