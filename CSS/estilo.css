@@ -1,12 +1,32 @@
  h1{
     color: indianred;
+    border: 0.5rem dotted indianred;
  }
  h1#page1{
-    color:rgb(180, 180, 180);
+    color:rgb(175, 101, 101);
  }
  h1#page2{
-    color:rgb(75, 87, 82);
+    color:rgb(236, 84, 84);
  }
+
+h2,h3,h4,h5,h6{
+   display:none;
+}
  body ul i {
-   color:rgb(76, 135, 136);
+   color:rgb(255, 125, 186);
  }
+ 
+p{
+   text-decoration: underline; color:rgb(0, 126, 130) double 0.1rem;
+   text-indent: 1rem;
+}
+p.maiusculo{
+   text-transform: uppercase;
+   text-align: center;
+   letter-spacing: 1rem;
+   line-height:2rem ;
+   word-spacing: 2rem;
+   color: pink;
+   font: Serif small-caps bold 2rem monospace;
+   text-shadow: 0.2rem 0.2rem 0.3rem pink, 0 0 1rem crimson;
+}
