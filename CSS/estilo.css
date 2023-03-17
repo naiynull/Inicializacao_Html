@@ -1,9 +1,9 @@
  h1{
     color: indianred;
-    border: 0.5rem dotted indianred;
+    border: 0.5rem dotted rgb(138, 125, 129);
  }
  h1#page1{
-    color:rgb(175, 101, 101);
+    color:rgb(189, 149, 149);
  }
  h1#page2{
     color:rgb(236, 84, 84);
@@ -13,11 +13,11 @@ h2,h3,h4,h5,h6{
    display:none;
 }
  body ul i {
-   color:rgb(255, 125, 186);
+   color:rgb(139, 128, 134);
  }
  
 p{
-   text-decoration: underline; color:rgb(0, 126, 130) double 0.1rem;
+   text-decoration: underline; color:rgb(226, 104, 130) double 0.1rem;
    text-indent: 1rem;
 }
 p.maiusculo{
@@ -26,7 +26,68 @@ p.maiusculo{
    letter-spacing: 1rem;
    line-height:2rem ;
    word-spacing: 2rem;
-   color: pink;
+   color: rgb(207, 37, 65);
    font: Serif small-caps bold 2rem monospace;
-   text-shadow: 0.2rem 0.2rem 0.3rem pink, 0 0 1rem crimson;
+   text-shadow: 0.2rem 0.2rem 0.3rem rgb(151, 119, 124), 0 0 1rem crimson;
+}
+a:link, a:visited, a:active{
+   text-decoration: tomato;
+   color:crimson;
+}
+a:hover{
+   color:rgb(245, 104, 104);
+}
+footer{
+   clear: both;
+   background: rgb(51, 103, 105) url("../img/stg.jpeg") no-repeat left bottom;
+   height: 10rem;
+}
+div{
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   display: inline;
+   z-index: 2rem;
+   background-color:rgb(245, 104, 104) ;
+   color: rgb(224, 220, 228);
+   border: 0.2rem solid rgb(235, 178, 178);
+   padding: 0.2rem;
+   font-size: 2rem;
+}
+h1#page1{
+   color:indianred;
+   border:0.3rem solid rgb(230, 200, 214);
+
+}img{
+   width: 20rem;
+}
+ul{
+   list-style-type: square;
+}
+h1.page2{
+   color:rgb(235, 188, 205);
+   border: 1rem groove rgb(19, 17, 17);
+   border-radius: 0.7rem;;
+}
+ol{
+   list-style-type: upper-roman;
+}
+section img{
+   float:left
+}
+main.grid {
+   display:grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 2rem
+}
+main.flexbox{
+   display: flex;
+   height: 100vh;
+   justify-content:  center;
+   align-items: center;
+}
+main.flexbox article{
+   background-color: tomato;
+   margin: 1rem;
+   padding: 2rem;
 }
